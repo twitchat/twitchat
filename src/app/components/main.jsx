@@ -54,7 +54,7 @@ const Main = React.createClass({
         </Dialog>
 
         <h1>material-ui</h1>
-        <h2>example project</h2>
+        <h2>Twitchat project</h2>
 
         <RaisedButton label="Super Secret Password" primary={true} onTouchTap={this._handleTouchTap} />
 
@@ -64,7 +64,7 @@ const Main = React.createClass({
 
   _handleTouchTap() {
     this.refs.superSecretPasswordDialog.show();
-  }
+  },
 
 });
 
